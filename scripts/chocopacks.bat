@@ -3,6 +3,7 @@ set /p PATH=<C:\Windows\Temp\PATH
 choco feature enable -n allowGlobalConfirmation
 :: Install all the things; for example:
 cmd /c choco install 7zip
+cmd /c choco install visualstudiocode
 cmd /c choco install notepadplusplus
 cmd /c choco install googlechrome
 cmd /c choco install firefox
